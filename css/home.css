@@ -1,0 +1,178 @@
+#home-app .about-text-container {
+    height: 100%;
+    position: relative;
+}
+
+#home-app .about .canva {
+    margin: 30px 0 80px 0;
+}
+
+#home-app .contact-img {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#home-app .contact-img img {
+    width: 100%;
+}
+
+#home-app .contact-content .form {
+    padding: 50px;
+}
+
+@media screen and (min-width: 1400px) {
+    #home-app .services {
+        padding: 100px 6%;
+    }
+    #home-app .service-item {
+        width: 600px;
+        height: 500px;
+    }
+    #home-app .services h1 {
+        margin-bottom: 70px;
+    }
+    .about-title,
+    .services h1 span,
+    #home-app .contact-container h1 {
+        padding: 15px 30px;
+    }
+    #home-app .about-content {
+        padding: 0 6%;
+        background-color: #20baf7;
+    }
+    #home-app .about-text-container {
+        padding: 50px 0;
+    }
+    #home-app .about-text {
+        padding: 50px;
+        border-radius: 15px;
+    }
+    #home-app .contact-container {
+        font-size: 22px;
+        padding: 100px 10%;
+    }
+    #home-app .form-group {
+        margin-top: 15px;
+    }
+    #home-app .form-group input {
+        height: 50px;
+        padding: 0 1.25rem;
+    }
+    #home-app .form-group textarea {
+        font-size: 22px;
+        padding: 1.25rem;
+    }
+    #home-app .form-group input {
+        font-size: 22px;
+    }
+    #home-app .form-group input::placeholder {
+        font: 1.25rem/3 sans-serif;
+    }
+}
+
+@media (max-width: 1400px) {
+    #home-app .services {
+        padding: 0 0 150px 0;
+    }
+    #home-app .services .col-sm-6 {
+        width: 100%;
+        margin-top: 150px;
+    }
+    #home-app .services h1 {
+        margin-bottom: 100px;
+    }
+    .about-title,
+    .services h1 span,
+    #home-app .contact-container h1 {
+        font-size: 55px;
+        padding: 30px 60px;
+    }
+    #home-app .service-item {
+        width: 80%;
+        height: 600px;
+    }
+    #home-app .about .col-sm-6 {
+        width: 100%;
+    }
+    #home-app .about .col-sm-6:first-child {
+        padding-top: 50px;
+        background-color: #20baf7;
+    }
+    #home-app .about-text {
+        padding: 100px 50px;
+    }
+    #home-app .contact-container {
+        font-size: 35px;
+        padding: 100px 50px;
+    }
+    #home-app .contact-content .form {
+        margin-top: 100px;
+    }
+    #home-app .form-group {
+        margin-top: 30px;
+    }
+    #home-app .form-group input {
+        height: 100px;
+        padding: 0 2.5rem;
+    }
+    #home-app .form-group textarea {
+        font-size: 35px;
+        padding: 2.5rem;
+    }
+    #home-app .form-group input {
+        font-size: 35px;
+    }
+    #home-app .form-group input::placeholder {
+        font: 2.5rem/3 sans-serif;
+    }
+    #home-app .col-contact {
+        width: 100%;
+    }
+}
+
+#home-app .services h1 {
+    color: #08417a;
+    text-align: center;
+}
+
+#home-app .services h1 span {
+    border-radius: 10px;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+#home-app .contact-container h1 {
+    color: #08417a;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto 100px auto;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+#home-app .service-item {
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-app .about {
+    padding: 50px 0 0 0;
+}
+
+#home-app .about-title {
+    color: #08417a;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto 60px auto;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+#home-app .profile {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#home-app .profile img {
+    width: 100%;
+}

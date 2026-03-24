@@ -1,0 +1,104 @@
+#products-app {
+    background-color: #edf0ef;
+}
+
+#products-app .product-item {
+    border-radius: 5px;
+    padding: 80px 50px 0 50px;
+}
+
+#products-app .product-item h1 {
+    margin: 0 auto;
+    color: #08417a;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+#products-app .product-item p {
+    color: #03284d;
+}
+
+#erp-transport-app {
+    padding: 100px 0;
+}
+
+#erp-transport-app h1 {
+    color: #03284d;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#erp-transport-app h3 {
+    margin: 30px 0;
+    color: #03284d;
+    text-decoration: underline;
+}
+
+#erp-transport-app p {
+    text-align: justify;
+}
+
+#erp-transport-app .img-item,
+#erp-transport-app .img-item img {
+    width: 100%;
+}
+
+#erp-transport-app .img-item {
+    margin: 50px 0;
+}
+
+#erp-transport-app .contact-erp-transport-cls {
+    color: #2071c3;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1400px) {
+    #products-app .products-container {
+        padding: 100px 200px;
+    }
+    #products-app .product-item {
+        width: 500px;
+        height: 400px;
+    }
+    #products-app .product-item h1 {
+        padding: 20px 40px;
+    }
+    #products-app .product-item p {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    #erp-transport-app p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #products-app .products-container {
+        padding: 100px 50px;
+    }
+    #products-app .product-item {
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+    #products-app .product-item h1 {
+        padding: 30px 50px;
+    }
+    #products-app .product-item p {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    #erp-transport-app .container {
+        max-width: 90%;
+    }
+    #erp-transport-app h1 {
+        font-size: 55px;
+    }
+    #erp-transport-app h3 {
+        font-size: 40px;
+    }
+    #erp-transport-app p {
+        font-size: 35px;
+    }
+}

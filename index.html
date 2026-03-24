@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>DIGITAL Daily</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        
+        <!-- ********** All css ********** -->
+
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/head.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/services.css">
+
+        <!-- ***************************** -->
+
+    </head>
+    <body>
+
+        <!-- Div loading -->
+        <div id="loader">Chargement...</div>
+
+        <!-- Principal content -->
+
+        <div id="content">
+
+            <!-- **** Header **** -->
+
+            <section id="header-app">
+                <div class="logo v-center logo-header-cls hover hover" data-link="home">
+                    <div class="header-web">
+                        <img class="logo-trans none" src="images/app/logo-trans.png">
+                        <img class="logo-white none" src="images/app/logo-white.png">
+                    </div>
+                    <div class="header-mobile">
+                        <img src="images/app/logo-white.png">
+                    </div>
+                </div>
+                <div class="items items-trans header-web">
+                    <ul class="v-center">
+                        <li>
+                            <span class="home-cls hover" data-link="home">Accueil</span>
+                        </li>
+                        <li>
+                            <span class="products-cls hover" data-link="products">Produits</span>
+                        </li>
+                        <li>
+                            <span class="service-cls hover" data-link="service">Services</span>
+                        </li>
+                        <li>
+                            <span class="portfolio-cls hover" data-link="portfolio">Portfolio</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact contact-trans v-center header-web">
+                    <span class="contact-header-cls hover" data-link="home">Nous contacter</span>
+                </div>
+                <div class="burger v-center header-mobile hover">
+                    <i class="fa-solid fa-bars shadow-sm bg-light"></i>
+                </div>
+            </section>
+
+            <!-- ********************* -->
+
+            <!-- Fake header -->
+            <div class="fake"></div>
+
+            <!-- Dropdown for mobile -->
+
+            <div class="dropdown bg-light none">
+                <ul>
+                    <li class="mb-home-cls hover" data-link="home" style="border-top: 1px solid #436c84;">
+                        <span>Accueil</span>
+                    </li>
+                    <li class="mb-products-cls hover" data-link="products">
+                        <span>Produits</span>
+                    </li>
+                    <li class="mb-service-cls hover" data-link="service">
+                        <span>Services</span>
+                    </li>
+                    <li class="mb-portfolio-cls hover" data-link="portfolio">
+                        <span>Portfolio</span>
+                    </li>
+                    <li class="mb-contact-cls hover" data-link="home">
+                        <span>Nous contacter</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ******* Heads ****** -->
+
+            <div class="head-content header-web">
+                <div class="head" style="background-image: url('images/app/bg-home-web.jpg')">
+                    <div class="bg-trans">
+                        <div class="v-center trans-content text-center">
+                            <h1 class="title">Numérisez votre quotidien <i class="fa-solid fa-star"></i></h1>
+                            <p>
+                                CRM, ERP, site internet,... Imaginez un outil de travail parfaitement
+                                adapté à votre besoin et nous vous aidons à le mettre en place.
+                            </p>
+                            <button type="button" class="btn btn-light btn-cmd contact-web-cls" data-link="home">Passez votre commande</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =========x========= -->
+
+            <div class="head-content header-mobile">
+                <div class="head" style="background-image: url('images/app/bg-home-mobile.jpg')">
+                    <div class="bg-trans">
+                        <div class="v-center trans-content text-center">
+                            <h1 class="title">Numérisez votre quotidien <i class="fa-solid fa-star"></i></h1>
+                            <p>
+                                CRM, ERP, site internet,... Imaginez un outil de travail parfaitement
+                                adapté à votre besoin et nous vous aidons à le mettre en place.
+                            </p>
+                            <button type="button" class="btn btn-light btn-cmd contact-mobile-cls" data-link="home">Passez votre commande</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ***** Home ***** -->
+
+            <section id="home-app">
+                <div class="services bg-light">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h1>
+                                <span>Dernière réalisation</span>
+                            </h1>
+                            <div class="service-item last-app-cls hover" data-link="erp-transport" style="background-image: url('images/app/last-app.jpg');">
+                        
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h1>
+                                <span>Application sur-mesure</span>
+                            </h1>
+                            <div class="service-item app-custom-cls hover" data-link="service" style="background-image: url('images/app/service.jpg');">
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about bg-light">
+                    <h1 class="about-title">Qui sommes-nous ?</h1>
+                    <div class="about-content">
+                        <div class="row">
+                            <div class="col-sm-6" style="position: relative;">
+                                <div class="profile v-bottom">
+                                    <img src="images/app/profile.png">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="about-text-container">
+                                    <div class="about-text bg-white shadow-lg v-center">
+                                        <div class="canva">
+                                            <div id="chartContainer" style="height: 400px; width: 100%; font-size:30px;"></div>
+                                        </div>
+                                        <h1 class="mb-3">Ingénieur Développeur Applicatif</h1>
+                                        <p class="sz-22">
+                                            Après une licence de mathématiques fondamentales, j'ai choisi de continuer mon cursus en informatique 
+                                            entant qu'Ingénieur Développeur Applicatif. Je travaille sur les sujets de développement  d'applications Web 
+                                            avec des outils, des solutions technologiques modernes, et aussi l'exploitation dans les environnements Cloud. 
+                                            Mon but est de réaliser un parcours de DevSecOps afin d'arriver au niveau d'un Architecte entreprise.
+                                        </p>
+                                        <button class="btn btn-secondary learn-more-cls sz-22 mt-3" data-link="portfolio">En savoir plus</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="commande" class="contact-container bg-light">
+                    <h1>Votre besoin</h1>
+                    <div class="contact-content row">
+                        <div class="col-sm-5 col-contact" style="position: relative;">
+                            <div class="contact-img v-center">
+                                <img src="images/app/contact.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 col-contact">
+                            <div class="form bg-white shadow-sm">
+                                <form id="contactForm">
+                                    <div id="companyBlock">
+                                        <div class="form-check form-check-inline" style="margin-right: 100px;">
+                                            <input class="form-check-input" type="radio" name="is_company" id="inlineRadioIndividual" value="Monsieur" checked>
+                                            <label class="form-check-label" for="inlineRadioIndividual">Particulier</label>
+                                        </div>
+                                        <div class="form-check form-check-inline mb-4">
+                                            <input class="form-check-input" type="radio" name="is_company" id="inlineRadioCompany" value="Madame">
+                                            <label class="form-check-label" for="inlineRadioCompany">Entreprise</label>
+                                        </div>
+                                    </div>
+                                    <div id="company" class="mb-4 none">
+                                        <div class="form-group mb-4">
+                                            <label for="company-input">Nom de l'entreprise <span style="color: red;">*</span></label>
+                                            <input type="text" name="company" id="company-input" class="form-control" placeholder="Nom de l'entreprise">
+                                        </div>
+                                        <h3>Personne de contact</h3>
+                                    </div>
+                                    <div class="form-check form-check-inline" style="margin-right: 100px;">
+                                        <input class="form-check-input" type="radio" name="gender" id="inlineRadioMale" value="Monsieur" checked>
+                                        <label class="form-check-label" for="inlineRadioMale">Monsieur</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" id="inlineRadioFemale" value="Madame">
+                                        <label class="form-check-label" for="inlineRadioFemale">Madame</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-contact">
+                                            <div class="form-group">
+                                                <label for="firstname-input">Prénom <span style="color: red;">*</span></label>
+                                                <input type="text" name="firstname" id="firstname-input" class="form-control" placeholder="Prénom" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-contact">
+                                            <div class="form-group">
+                                                <label for="lastname-input">Nom <span style="color: red;">*</span></label>
+                                                <input type="text" name="lastname" id="lastname-input" class="form-control" placeholder="Nom" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email-input">E-mail <span style="color: red;">*</span></label>
+                                        <input type="email" name="email" id="email-input" class="form-control" placeholder="E-mail" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject-input">Objet <span style="color: red;">*</span></label>
+                                        <input type="text" name="subject" id="subject-input" class="form-control" placeholder="Objet" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-input">Votre demande <span style="color: red;">*</span></label>
+                                        <textarea rows="5" name="message" id="message-input" class="form-control" placeholder="Faites-nous part de votre projet" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-success btn-cmd">Envoyer</button>
+                                    </div>
+                                </form>
+                                <div id="message" class="mt-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ******* Products ******* -->
+
+            <section id="products-app" class="none">
+                <div class="products-container">
+                    <div class="product-item erp-transport-cls hover bg-white shadow-sm" data-link="erp-transport">
+                        <h1>ERP-TRANSPORT</h1>
+                        <p>
+                            Application de gestion de tournées pour un transporteur.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- *** ERP-TRANSPORT *** -->
+
+            <section id="erp-transport-app" class="none">
+                <div class="container">
+                    <h1>ERP-TRANSPORT</h1>
+                    <p>
+                        ERP-TRANSPORT est une application web dont le besoin principale est la 
+                        gestion des tournées de marchandises pour un transporteur. Il s'agit d'un 
+                        outil sur-mesure pour le besoin d'un client spécifique mais dont les 
+                        fonctionnalités de base restent tout à fait compatibles à d'éventuels 
+                        besoins pour un client similaire. Pour celui-ci, le besoin s'étend 
+                        jusqu’à la gestion des chauffeurs (et bien d’autres) et la 
+                        génération des factures.
+                    </p>
+                    <h3>Le Dashboard</h3>
+                    <p>
+                        Après authentification, l’utilisateur accède au Dashboard où sont représentés 
+                        les différents diagrammes de l’évolution des différentes demandes.
+                    </p>
+                    <div class="img-item">
+                        <img src="images/erp-transport/dashboard.png">
+                    </div>
+                    <h3>Le Planning</h3>
+                    <p>
+                        Comme le nom l’indique, c’est sur le planning qu’on visualise quel chauffeur 
+                        est attribué à quelle tournée, et à quelles heures débute et se termine 
+                        celle-ci. Il est aussi possible d’attribuer directement une tournée 
+                        à un chauffeur sur le planning, ou même voir les détails d’une 
+                        tournée en la survolant avec le curseur.
+                    </p>
+                    <div class="img-item">
+                        <img src="images/erp-transport/planning.png">
+                    </div>
+                    <h3>Le Puits de tournées</h3>
+                    <p>
+                        Le “puits de tournées” est un abus de langage qui signifie la liste des tournées. 
+                        Sur cette page on retrouve toutes les tournées du jour J, celles de la veille, 
+                        ainsi que celles du lendemain. Les tournées peuvent être filtrées par statut, 
+                        catégorisé par un code couleur au niveau des cases à cocher, ou à partir de 
+                        la liste des différentes colonnes d’une tournée.
+                    </p>
+                    <div class="img-item">
+                        <img src="images/erp-transport/tours.png">
+                    </div>
+                    <h3>L'Administration</h3>
+                    <p>
+                        Pour accéder à toute gestion de l’application, il faut, bien évidemment, passer 
+                        par l’administration. Certaines gestions sont plus parlantes comme les 
+                        gestions des chauffeurs, des clients (où on génère les factures), des 
+                        utilisateurs, et d’autres sont spécifiques au besoin du client.
+                    </p>
+                    <div class="img-item">
+                        <img src="images/erp-transport/admin.png">
+                    </div>
+                    <h3>La Flotte</h3>
+                    <p>
+                        Tous les véhicules sont répertoriés ici en spécifiant le type, la plaque 
+                        d’immatriculation ainsi que toute information jugée nécessaire. 
+                    </p>
+                    <div class="img-item">
+                        <img src="images/erp-transport/flotte.png">
+                    </div>
+                    <h3>Les congés</h3>
+                    <p>
+                        Il y a aussi les congés qui sont gérés dans l’application, représentés tout 
+                        au long du mois sous forme de block sur lequel est mentionné les nom et 
+                        prénom de l’utilisateur concerné.
+                    </p>
+                    <div class="img-item">
+                        <img src="images/erp-transport/leave.png">
+                    </div>
+                    <p>
+                        Voici les fonctionnalités clés de l’application <strong>ERP-TRANSPORT</strong>. 
+                        Il y a, bien entendu, d’autres fonctionnalités que vous pouvez découvrir si 
+                        cela vous intéresse. N’hésitez pas à nous 
+                        <span class="contact-erp-transport-cls hover" data-link="home">contacter</span> si vous souhaitez 
+                        avoir plus d’informations.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ****** Services ****** -->
+
+            <section id="service-app" class="none">
+                <div class="service-container row">
+                    <div class="service-item col-sm-4 erp-transport-cls hover bg-white shadow-sm" data-link="erp-transport">
+                        <h1>CRM</h1>
+                        <p>
+                            Un outil pour la gestion de la relation client.
+                        </p>
+                    </div>
+                    <div class="service-item col-sm-4 erp-transport-cls hover bg-white shadow-sm" data-link="erp-transport">
+                        <h1>ERP</h1>
+                        <p>
+                            Une application de gestion du planning.
+                        </p>
+                    </div>
+                    <div class="service-item col-sm-4 erp-transport-cls hover bg-white shadow-sm" data-link="erp-transport">
+                        <h1>Site web</h1>
+                        <p>
+                            Présenter votre activité dans un site vitrine.
+                        </p>
+                    </div>
+                    <div class="service-item col-sm-4 erp-transport-cls hover bg-white shadow-sm" data-link="erp-transport">
+                        <h1>Plateforme</h1>
+                        <p>
+                            Une plateforme interactive pour une gestion globale.
+                        </p>
+                    </div>
+                    <div class="service-item col-sm-4 erp-transport-cls hover bg-white shadow-sm" data-link="erp-transport">
+                        <h1>Outil sur-mesure</h1>
+                        <p>
+                            Contruisez votre outil de toute pièce.
+                        </p>
+                    </div>
+                    <br style="clear: both;">
+                </div>
+            </section>
+
+            <!-- ***** Portfolio ***** -->
+
+            <section id="portfolio-app" class="none">
+    
+            </section>
+
+            <!-- ******* Footer ******* -->
+
+            <section id="footer-app">
+                <div class="content row">
+                    <div class="col-sm-6 text-center-footer">
+                        <div class="logo-footer logo-footer-cls hover text-center-footer" data-link="home">
+                            <img src="images/app/logo-trans.png">
+                        </div>
+                        <p>
+                            Optimisez votre travail avec une bonne intégrité des données, laissez nous un message.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-cmd contact-footer-cls" data-link="home">Prendre contact</button>
+                        <hr class="line-footer">
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/hassane-toiwilou-6b13811a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                <img src="images/app/linkedin.png">
+                            </a>
+                            <a href="#">
+                                <img src="images/app/twitter.png">
+                            </a>
+                            <a href="#">
+                                <img src="images/app/facebook.png">
+                            </a>
+                            <a href="#">
+                                <img src="images/app/instagram.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 references">
+                        <h1>Références</h1>
+                        <hr class="line-footer">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li>
+                                        Icon par <a href="https://fontawesome.com/icons" target="_blank">Fontawesome</a>
+                                    </li>
+                                    <li>
+                                        Icon par <a href="https://www.flaticon.com/fr/" target="_blank">Flaticon</a>
+                                    </li>
+                                    <li>
+                                        Image par <a href="https://www.free../../public/images.com/fr" target="_blank">Free../../public/images</a>
+                                    </li>
+                                    <li>
+                                        Image par <a href="https://www.free../../public/images.com/fr" target="_blank">Free../../public/images</a>
+                                    </li>
+                                    <li>
+                                        Image par <a href="https://fr.freepik.com/" target="_blank">Freepik</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li>
+                                        Logo par <a href="https://www.canva.com/" target="_blank">Canva</a>
+                                    </li>
+                                    <li>
+                                        Graphe par <a href="https://canvasjs.com/javascript-charts/pie-chart-legends/" target="_blank">Canvajs</a>
+                                    </li>
+                                    <li>
+                                        Editeur par <a href="https://www.photoroom.com/fr/outils/detourer-une-image" target="_blank">Photoroom</a>
+                                    </li>
+                                    <li>
+                                        Design par <a href="https://blog.hubspot.com/website/website-footer" target="_blank">HubSpot</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom text-center">
+                    <small>&copy; Digital daily 2025</small>
+                </div>
+            </section>
+
+            <!-- ****************** -->
+            
+        </div>
+
+        <!-- ***************** -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <!-- ********** All js *********** -->
+
+        <script src="js/app.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/head.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/products.js"></script>
+        <script src="js/services.js"></script>
+
+        <!-- **************************** -->
+    </body>
+</html>

@@ -1,0 +1,63 @@
+.row {
+    margin: 0;
+}
+
+#service-app {
+    padding: 50px 100px;
+    background-color: #edf0ef;
+}
+
+#service-app .service-item {
+    border-radius: 5px;
+    padding: 80px 50px 0 50px;
+}
+
+#service-app .service-item h1 {
+    margin: 0 auto;
+    color: #08417a;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+#service-app .service-item p {
+    color: #03284d;
+}
+
+@media screen and (min-width: 1400px) {
+    #service-app .service-container {
+        display: flex;
+        width: fit-content;
+    }
+    #service-app .service-item {
+        float: left;
+        width: 500px;
+        height: 400px;
+        margin: 25px;
+    }
+    #service-app .service-item h1 {
+        padding: 20px 40px;
+    }
+    #service-app .service-item p {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #service-app .service-container {
+        padding: 100px 50px;
+    }
+    #service-app .service-item {
+        width: 80%;
+        height: 500px;
+        margin: 60px auto;
+    }
+    #service-app .service-item h1 {
+        padding: 30px 50px;
+    }
+    #service-app .service-item p {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+}

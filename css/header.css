@@ -1,0 +1,176 @@
+#header-app {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.bg-white {
+    transition: 0.1s;
+}
+
+#header-app .logo {
+    height: fit-content;
+}
+
+#header-app .items {
+    width: 40%;
+    height: 130px;
+    position: relative;
+}
+
+@media screen and (min-width: 1700px) {
+    #header-app .items {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1700px) and (min-width: 1300px) {
+    #header-app .items {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #header-app {
+        height: 130px;
+    }
+    #header-app .logo {
+        margin-left: 50px;
+    }
+    .header-web {
+        display: block;
+    }
+    .header-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    #header-app {
+        height: 260px;
+        background-color: white;
+    }
+    .fake {
+        width: 100%;
+        height: 260px;
+    }
+    #header-app .logo {
+        width: 35%;
+        margin-left: 20px;
+    }
+    #header-app .logo img {
+        width: 100%;
+    }
+    #header-app .burger {
+        height: fit-content;
+    }
+    #header-app .fa-bars {
+        color: #436c84;
+        font-size: 100px;
+        padding: 20px 40px;
+        margin-right: 40px;
+        border-radius: 8px;
+        border: 1px solid #436c84;
+    }
+    .dropdown {
+        right: 0;
+        width: 60%;
+        z-index: 1;
+        position: fixed;
+    }
+    .dropdown ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .dropdown li {
+        width: 100%;
+        height: 150px;
+        font-size: 45px;
+        text-align: center;
+        line-height: 150px;
+        border-bottom: 1px solid #436c84;
+    }
+    .dropdown a {
+        display: block;
+        color: #436c84;
+        text-decoration: none;
+    }
+    .header-web {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+}
+
+#header-app .items ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#header-app .items li {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+#header-app .items-trans li {
+    border: 1px solid rgba(172, 211, 237, 0.1);
+    background-color: rgba(172, 211, 237, 0.1);
+}
+
+#header-app .items-trans span {
+    font-size: 27px;
+    color: rgba(201, 222, 246, 0.9);
+}
+
+#header-app .items-trans span:hover {
+    transition: 0.1s;
+    color: rgba(139, 186, 243, 0.9);
+}
+
+#header-app .items-white span {
+    font-size: 27px;
+    color: rgba(8, 43, 83, 0.9);
+}
+
+#header-app .items-white span:hover {
+    transition: 0.1s;
+    color: rgba(88, 143, 211, 0.9);
+}
+
+#header-app .contact {
+    margin-right: 80px;
+    height: fit-content;
+}
+
+#header-app .contact-trans span {
+    color: rgba(201, 222, 246, 0.9);
+}
+
+#header-app .contact-trans span:hover {
+    color: rgba(139, 186, 243, 0.9);
+}
+
+#header-app .contact-white span {
+    color: rgba(8, 43, 83, 0.9);
+}
+
+#header-app .contact-white span:hover {
+    color: rgba(88, 143, 211, 0.9);
+}
+
+#header-app .contact span {
+    font-size: 22px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: 2px solid rgba(18, 123, 252, 0.2); 
+    background-color: rgba(18, 123, 252, 0.1);
+}

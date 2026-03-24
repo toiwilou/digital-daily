@@ -1,0 +1,77 @@
+.head-content {
+    width: 100%;
+}
+
+.head {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head .bg-trans {
+    position: relative;
+    background-color: rgba(2, 30, 74, 0.7);
+}
+
+.head .trans-content {
+    margin: 0 auto;
+}
+
+.head .title {
+    text-align: center;
+    color: rgba(250, 250, 250, 0.8);
+}
+
+.head .title i {
+    font-size: 65px;
+    color: transparent;
+    background-clip: text; /* Support partiel sur Firefox */
+    background: linear-gradient(90deg, rgba(199, 217, 81, 0.8), rgba(241, 99, 11, 0.8));
+    -webkit-background-clip: text; /* Nécessaire pour Webkit (Chrome, Safari) */
+    -webkit-text-fill-color: transparent; /* Rend le texte transparent */
+}
+
+.head .bg-trans p {
+    margin: 30px 0;
+    text-align: center;
+    color: rgba(250, 250, 250, 0.8);
+}
+
+@media screen and (min-width: 1400px) {
+    .head,
+    .head .bg-trans {
+        height: 800px;
+    }
+    .head .trans-content {
+        width: 65%;
+    }
+    .head .title {
+        font-size: 90px;
+    }
+    .head .bg-trans p {
+        font-size: 35px;
+    }
+    .btn-cmd {
+        font-size: 25px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .head,
+    .head .bg-trans {
+        height: 900px;
+    }
+    .head .trans-content {
+        width: 80%;
+    }
+    .head .title {
+        font-size: 100px;
+    }
+    .head .bg-trans p {
+        font-size: 45px;
+    }
+    .btn-cmd {
+        font-size: 45px;
+        padding: 15px 30px;
+    }
+}
