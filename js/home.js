@@ -33,6 +33,34 @@ window.onload = function () {
         }]
     });
 
+    var chartPortfolio = new CanvasJS.Chart("chartContainerPortfolio", {
+        exportEnabled: false,
+        animationEnabled: true,
+        title:{
+            text: "Diagramme des skills"
+        },
+        legend:{
+            cursor: "pointer",
+            itemclick: explodePie
+        },
+        data: [{
+            type: "pie",
+            showInLegend: false,
+            toolTipContent: "<strong>{y}%</strong>",
+            indexLabel: "{name}",
+            dataPoints: [
+                { y: 20, name: "- Développement" },
+                { y: 18, name: "Linux -" },
+                { y: 4, name: "Cloud -" },
+                { y: 8, name: "DevOps -" },
+                { y: 12, name: "Design -" },
+                { y: 17, name: "Agilité -" },
+                { y: 21, name: "- Architecture", exploded: true }
+            ]
+        }]
+    });
+
+    chartPortfolio.render();
     chart.render();
 }
 
