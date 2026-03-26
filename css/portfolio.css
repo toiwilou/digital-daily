@@ -94,6 +94,50 @@
     margin-bottom: 50px;
 }
 
+.skills-content {
+    padding: 100px 0;
+}
+
+.skills {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-block-item {
+    width: fit-content;
+    background-color: rgba(172, 211, 237, 0.2);
+}
+
+.head-item {
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    border-bottom: 1px solid #08417a;
+    background-color: rgb(8, 87, 176);
+}
+
+.body-item {
+    padding: 20px;
+}
+
+.skill-item {
+    width: 200px;
+    height: 80px;
+    padding: 0 20px;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 15px;
+    background-color: #fdfeff;
+    border-top: 6px solid rgb(8, 87, 176);
+    border-bottom: 6px solid rgb(8, 87, 176);
+}
+
+.skill-item img {
+    width: 100%;
+}
+
 @media (max-width: 1400px) {
     #portfolio-app .row > div {
         width: 100%;
