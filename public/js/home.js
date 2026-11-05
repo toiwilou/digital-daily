@@ -2,8 +2,8 @@ const individualRadio = document.getElementById('inlineRadioIndividual');
 const companyRadio = document.getElementById('inlineRadioCompany');
 const companyInput = document.getElementById('company-input');
 const companyBlock = document.getElementById('companyBlock');
-const url = companyBlock.dataset.url + '/api/add.php';
 const company = document.getElementById('company');
+const url = companyBlock.dataset.url + '/add.php';
 
 window.onload = function () {
 
