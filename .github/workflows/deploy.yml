@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.FTP_USER_WEBSITE }}
           password: ${{ secrets.FTP_PASSWORD_WEBSITE }}
           protocol: ftp
-          local-dir: ./
+          local-dir: ./public/
           server-dir: ./
           exclude: |
             **/.git*
