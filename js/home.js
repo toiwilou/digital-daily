@@ -2,6 +2,7 @@ const individualRadio = document.getElementById('inlineRadioIndividual');
 const companyRadio = document.getElementById('inlineRadioCompany');
 const companyInput = document.getElementById('company-input');
 const companyBlock = document.getElementById('companyBlock');
+const url = companyBlock.dataset.url + '/api/add.php';
 const company = document.getElementById('company');
 
 window.onload = function () {
@@ -104,7 +105,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
     };
 
     try {
-        const response = await fetch('https://api.digital-daily.fr/api/commands', {
+        const response = await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -121,6 +122,12 @@ document.getElementById('contactForm').addEventListener('submit', async function
             document.getElementById('message').innerHTML =
                 '<div class="alert alert-danger">' + (result.message || 'Erreur') + '</div>';
         }
+
+        document.getElementById('firstname-input').value = '';
+        document.getElementById('lastname-input').value = '';
+        document.getElementById('email-input').value = '';
+        document.getElementById('subject-input').value = '';
+        document.getElementById('message-input').value = '';
 
     } catch (error) {
         console.error(error);

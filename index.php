@@ -1,3 +1,5 @@
+<?php require_once __DIR__ . '/env.php'; ?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -188,7 +190,7 @@
                         <div class="col-sm-7 col-contact">
                             <div class="form bg-white shadow-sm">
                                 <form id="contactForm">
-                                    <div id="companyBlock">
+                                    <div id="companyBlock" data-url="<?= $baseUrl ?>">
                                         <div class="form-check form-check-inline" style="margin-right: 100px;">
                                             <input class="form-check-input" type="radio" name="is_company" id="inlineRadioIndividual" value="Monsieur" checked>
                                             <label class="form-check-label" for="inlineRadioIndividual">Particulier</label>
