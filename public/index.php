@@ -380,6 +380,18 @@
                             Contruisez votre outil de toute pièce.
                         </p>
                     </div>
+                    <div class="service-item col-sm-4 erp-transport-cls bg-white shadow-sm" data-link="erp-transport">
+                        <h1>Appli mobile</h1>
+                        <p>
+                            Simplifiez-vous avec une application mobile.
+                        </p>
+                    </div>
+                    <div class="service-item col-sm-4 erp-transport-cls bg-white shadow-sm" data-link="erp-transport">
+                        <h1>DevOps & Infra</h1>
+                        <p>
+                            Automatisez la livraison de votre code pour accélérer le time-to-market
+                        </p>
+                    </div>
                     <br style="clear: both;">
                 </div>
             </section>
@@ -459,10 +471,10 @@
                             <img src="images/app/angular.png" class="v-center">
                         </div>
                         <div class="stack-item shadow-sm">
-                            <img src="images/app/mysql.png" class="v-center">
+                            <img src="images/app/flutter.png" class="v-center">
                         </div>
                         <div class="stack-item shadow-sm">
-                            <img src="images/app/linux.png" class="v-center">
+                            <img src="images/app/mysql.png" class="v-center">
                         </div>
                         <div class="stack-item shadow-sm">
                             <img src="images/app/docker.png" class="v-center">
@@ -476,22 +488,26 @@
                     <h1 style="text-align: center;" class="mb-5">MES PROJETS</h1>
                     <div class="col-sm-4">
                         <div class="project-item shadow">
-                            <h1>TRIP</h1>
-                            <h2>Plateforme de gestion et de réservation d'appartements avec voiture</h2>
+                            <h1>SAS NOA Solutions</h1>
+                            <h2>Gestion du planning et administrative, et application de pointage</h2>
                             <p>
                                 <span style="text-decoration: underline;">Objectif :</span><br>
-                                Catalogue des appartements et voitures disponibles,
-                                réservation d'appartements avec l'option de voiture, mettre à jour ou 
-                                annuler une réservation, gérer le profil, ainsi que la gestions 
-                                administratives. <br><br>
+                                Mettre en place une solution web pour toute la gestion du planning et de l'administrative 
+                                pour les entreprises de proprété, et une application webpplication mobile de validation 
+                                d’interventions terrain, en remplacement des bons d’intervention papier. <br><br>
                                 <span style="text-decoration: underline;">Réalisation :</span><br>
                             </p>
                             <ul class="sz-22">
-                                <li>Etude et distinction des user-stories</li>
-                                <li>Réalisation des modèles de données (MCD, MLD et MPD)</li>
-                                <li>Création et configuration d'une base de données MySQL</li>
-                                <li>Développement de la logique métier en API REST en Symfony</li>
-                                <li>La vue en Angular et déploiement sur OVH Cloud</li>
+                                <li>Conception de l’architecture applicative (API, base de données, application mobile) au
+                                    sein d’une équipe Scrum de 5 personnes, en sprints de 2 semaines</li>
+                                <li>Développement d’une API REST en PHP natif / MySQL, interfacée avec la base de
+                                    données métier existante (requêtes multi-tables, interventions planifiées à la journée, à
+                                    la semaine ou au mois)</li>
+                                <li>Développement de l’application Flutter : authentification, gestion des activités et
+                                    validation des interventions sur site par scan de tags NFC et photos justificatives</li>
+                                <li>Synchronisation des données avec le système d’information existant de l’entreprise</li>
+                                <li>Application destinée à environ plus d’une centaine de techniciens, avec pour objectif la
+                                    suppression de la double saisie papier / informatique</li>
                             </ul>
                         </div>
                     </div>
@@ -507,11 +523,17 @@
                                 <span style="text-decoration: underline;">Réalisation :</span><br>
                             </p>
                             <ul class="sz-22">
-                                <li>Expression du besoin et cahier de charge</li>
-                                <li>Analyse fonctionnelle et technique des spécifications</li>
-                                <li>Modélisation et mise en place d'une base de données MySQL</li>
-                                <li>Développement de l'application avec Symfony en modèle MVC</li>
-                                <li>Environnement de production avec Synology et Docker</li>
+                                <li>Rcueil du besoin auprès des équipes d’exploitation, rédaction du cahier des charges et
+                                    des spécifications fonctionnelles</li>
+                                <li>Développement de l’application web en Symfony et Angular, utilisée quotidiennement
+                                    par une dizaine de planificateurs pour organiser environ 200 tournées par semaine</li>
+                                <li>Développement d’une application mobile Flutter pour 100 chauffeurs, s’appuyant sur une
+                                    API Symfony sécurisée par JWT</li>
+                                <li>Réduction du temps de préparation des plannings de 3 h à moins d’1 h par jour</li>
+                                <li>Mise en place et administration de l’infrastructure : serveur Synology, conteneurisation
+                                    Docker, reverse proxy Nginx</li>
+                                <li>orteur technique du projet de bout en bout, de la conception à la mise en production et
+                                    à la maintenance</li>
                             </ul>
                         </div>
                     </div>
@@ -528,11 +550,14 @@
                                 <span style="text-decoration: underline;">Réalisation :</span><br>
                             </p>
                             <ul class="sz-22">
-                                <li>Etablir un cahier de charges et analyser le projet</li>
-                                <li>Créer la base de données et développer la logique métier</li>
-                                <li>Remonter les informations via le Cron</li>
-                                <li>Configuration de l'environnement de production (RedHat)</li>
-                                <li>Déploiement de l'application via Gitlab-ci et Ansible</li>
+                                <li>Développement d’une application métier Symfony (architecture MVC) assurant le suivi
+                                    de licences réparties sur une trentaine d’éditeurs</li>
+                                <li>Industrialisation des déploiements sur Linux Red Hat via GitLab CI/CD et Ansible,
+                                    réduisant considérablement le temps de mise en production.</li>
+                                <li>Automatisation de l’import quotidien des données externes (tâches cron), supprimant
+                                    4 h de saisie manuelle par semaine</li>
+                                <li>ravail en équipe de 6 personnes dans un environnement bancaire aux exigences fortes
+                                    de sécurité et de conformité</li>
                             </ul>
                         </div>
                     </div>
@@ -579,6 +604,9 @@
                                 <h2>FRONT-END</h2>
                             </div>
                             <div class="body-item">
+                                <div class="skill-item">
+                                    <img src="images/app/flutter.png" class="v-center">
+                                </div>
                                 <div class="skill-item">
                                     <img src="images/app/angular.png" class="v-center">
                                 </div>
@@ -660,7 +688,7 @@
                     </div>
                 </div>
                 <div class="text-center" style="font-size: 25px;">
-                    <a style="font-size: 30px;" class="btn btn-outline-primary" href="file/CURRICULUM_VITAE.pdf" target="_blank" download>Télécharger mon CV</a>
+                    <a style="font-size: 30px;" class="btn btn-outline-primary" href="file/CV_HT_ING_DEV_IA.pdf" target="_blank" download>Télécharger mon CV</a>
                     <a style="font-size: 30px;" class="btn btn-outline-success" href="mailto:toiwilouhassane@gmail.com">Envoyer un mail</a>
                 </div>
             </section>
